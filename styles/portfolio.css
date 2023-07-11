@@ -1,7 +1,89 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.header{
+    background: #ffffff;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+ }
 
 nav{
     display: flex;
+    justify-content: space-between;
+    margin: 51px 100px 30px 150px
 }
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+.nav-title{
+    color: #181818;
+    
+    font-size: 45px;
+    
+    font-weight: 800;
+    height: 61px;
+    width: 121px;
+}
+
+nav >ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+ nav a{
+    text-decoration: none;
+    color: #474747;
+ }
+
+ .banner{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
+ }
+ .banner-content{
+    max-width: 581px;
+ }
+ .banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+ }
+
+ .banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+ }
+
+ .banner-description{
+    width: 585px;
+ }
+ .banner .profile-pic{
+    width: 500px;
+    height: 676px;
+    position:;
+ }
+
+ 
